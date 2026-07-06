@@ -275,8 +275,7 @@ with col2:
         "risk_score": "Composite Risk Score"
     })
     st.dataframe(
-        styled_agg.style.background_gradient(cmap="Oranges", subset=["Composite Risk Score"])
-        .format({"Backlog Rate": "{:.0%}", "Composite Risk Score": "{:.2f}"}),
+        styled_agg.style.format({"Backlog Rate": "{:.0%}", "Composite Risk Score": "{:.2f}"}),
         use_container_width=True,
         hide_index=True
     )
