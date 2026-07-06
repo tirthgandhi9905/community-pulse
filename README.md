@@ -41,13 +41,67 @@ Smart cities gather massive streams of citizen reports (e.g., potholes, utility 
 
 ```mermaid
 graph TD
-    A[Citizen Complaints: complaints.csv] --> B(Streamlit Dashboard Interface)
+    A[Citizen Complaints: complaints.csv] --> B(Streamlit Front-End Interface)
     B --> C[Data Analytics Engine: Pandas & NumPy]
     C --> D[Data Visualizations: Plotly Interactive Charts]
     B --> E[Gemini AI Integration: google-generativeai SDK]
     E --> F[Decision Intelligence: Custom Chat & Advisory Reports]
     B --> G[Containerization: Docker]
     G --> H[Google Cloud Run Deployment]
+```
+
+### 🔄 System Process Flow & Use Cases
+
+#### Chronological Data & Decision Flow
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as City Stakeholder
+    participant UI as Streamlit Front-End
+    participant Calc as Risk Calculation Engine (Pandas)
+    participant LLM as Google Gemini AI (RAG)
+    participant Field as Field Maintenance Crew
+
+    User->>UI: Selects filters (Zone/Category)
+    UI->>Calc: Queries complaints.csv
+    Calc->>UI: Computes metrics & dynamic Risk Scores (R_z)
+    UI->>User: Displays interactive Plotly charts & League table
+    UI->>LLM: Sends summary metrics & context prompt
+    LLM->>UI: Returns operational advisory recommendations
+    UI->>User: Renders executive report card
+    User->>UI: Enters custom query in Chat (e.g. "Draft dispatch email")
+    UI->>LLM: Packages prompt + data context
+    LLM->>UI: Generates draft email/analysis response
+    UI->>User: Displays response bubble
+    User->>Field: Dispatches crews with AI-generated instructions
+```
+
+#### Platform Use Case Mapping
+```mermaid
+graph TD
+    %% Actors
+    Admin[City Operator / Stakeholder]
+    System[Back-End Database]
+
+    %% Use Cases
+    UC1((1. Filter Civic Complaints))
+    UC2((2. Monitor Volatility & Trends))
+    UC3((3. Check Zone Risk Rankings))
+    UC4((4. Generate Executive Advisory Brief))
+    UC5((5. Query Database via Chat RAG))
+    UC6((6. Draft Crew Dispatch Emails))
+
+    %% Connections
+    Admin --> UC1
+    Admin --> UC2
+    Admin --> UC3
+    Admin --> UC4
+    Admin --> UC5
+    Admin --> UC6
+
+    UC1 -.->|includes| System
+    UC3 -.->|includes| System
+    UC5 -.->|uses Gemini AI| UC6
 ```
 
 ### 🧮 Mathematical Risk scoring
