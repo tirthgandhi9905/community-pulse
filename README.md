@@ -1,38 +1,47 @@
 # 🏙️ Community Pulse — AI-Powered Civic Decision Intelligence Platform
 
-> **Gen AI APAC Cohort 2 — AI for Better Living and Smarter Communities**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit Framework" />
+  <img src="https://img.shields.io/badge/Google_Gemini-1.5_Flash-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Gemini LLM" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Containerization" />
+  <img src="https://img.shields.io/badge/Google_Cloud_Run-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP Cloud Run" />
+</p>
 
-Community Pulse is a decision intelligence platform designed to help municipal authorities and city stakeholders transform raw citizen complaints into real-time operational insights, risk score maps, and automated crew dispatches. Leveraging Google Cloud's AI ecosystem (including Google Gemini models), it turns raw, messy civic data into immediate decision action, replacing hours of manual reports.
+> **Gen AI APAC Cohort 2 Capstone Submission**
+> 
+> *Theme: AI for Better Living and Smarter Communities*
 
----
-
-## 🔗 Submission Details
-
-- **Deployment Link (Cloud Run)**: `[Paste your deployed URL here, e.g., https://community-pulse-xxxx.run.app]`
-- **GitHub Repository Link**: `[Paste your GitHub repository link here]`
-- **Demo Video Link (max 3 min)**: `[Paste your demo video link here]`
-- **Project Slide Deck (PPT)**: Ready-to-copy content is structured in [presentation_content.md](file:///d:/Projects/Genai-APAC/community-pulse/presentation_content.md) inside this repository.
-
----
-
-## 📖 Problem Statement
-Modern smart cities collect massive amounts of structured and unstructured feedback through municipal hotlines, citizen portal logs, and utility monitoring systems. However, processing this data is slow and manual. Municipal managers struggle to:
-1. **Assess risk dynamically** (which zone is collapsing under repair backlogs?).
-2. **Prioritize operations** (what category of complaints has the highest resolution backlog?).
-3. **Engage with data in plain language** (how can dispatch supervisors quickly query stats or write email updates?).
-
-**Community Pulse** solves this by providing:
-- A dynamic **Municipal Risk Score Index** that calculates priority levels for zones.
-- Interactive charts tracking weekly volatility and category distribution.
-- A **Gemini-powered RAG assistant** that answers complex queries in natural language, drafts field crew notifications, and predicts resolution trends.
+Community Pulse is a serverless Decision Intelligence Platform designed to empower municipal administrators, city stakeholders, and community advocates. By transforming unstructured citizen feedback, hotline complaints, and ticket data into actionable operational insights, the platform computes dynamic risk indices, drafts automated work orders, and answers complex queries in natural language in seconds.
 
 ---
 
-## 🏗️ Architecture & Technology Stack
+## 🔗 Submission Credentials
+
+| Submission Artifact | Link |
+| :--- | :--- |
+| 🌐 **Live Deployment Link** | [https://community-pulse-99.streamlit.app/](https://community-pulse-99.streamlit.app/) |
+| 📂 **GitHub Repository** | [https://github.com/tirthgandhi9905/community-pulse](https://github.com/tirthgandhi9905/community-pulse) |
+| 🎥 **Demo Video Link (max 3 min)** | `[Paste your shared Google Drive / Loom / YouTube video URL here]` |
+| 📊 **Project Slide Deck** | Slides are structured slide-by-slide in [presentation_content.md](file:///d:/Projects/Genai-APAC/community-pulse/presentation_content.md) |
+
+---
+
+## 📖 The Problem
+Smart cities gather massive streams of citizen reports (e.g., potholes, utility leaks, outages, illegal dumping). However, municipal command centers face major challenges:
+1. **Response Latency**: Manually querying logs and building weekly reports takes hours, resulting in slow community response.
+2. **Prioritization Blindspots**: Finding the exact zone collapsing under unresolved backlogs is difficult without standard risk scoring.
+3. **Operational Bottlenecks**: Dispatch coordinators lack tools to rapidly draft field instructions, notifications, or update templates from raw spreadsheets.
+
+**Community Pulse** solves this with a unified intelligence dashboard combining statistical indices with Large Language Models.
+
+---
+
+## 🛠️ How It Works: The Decision Engine
 
 ```mermaid
 graph TD
-    A[Citizen Complaints: complaints.csv] --> B(Streamlit Front-End Interface)
+    A[Citizen Complaints: complaints.csv] --> B(Streamlit Dashboard Interface)
     B --> C[Data Analytics Engine: Pandas & NumPy]
     C --> D[Data Visualizations: Plotly Interactive Charts]
     B --> E[Gemini AI Integration: google-generativeai SDK]
@@ -41,81 +50,70 @@ graph TD
     G --> H[Google Cloud Run Deployment]
 ```
 
-### Stack
-- **Frontend**: Streamlit (Python-based dashboard)
-- **Data Engine**: Pandas & NumPy (data ingestion & scoring matrix)
-- **Visuals**: Plotly Express & Plotly Graph Objects (interactive charts)
-- **Generative AI**: Google Gemini Pro / Flash 1.5 (`google-generativeai` SDK)
-- **Infrastructure**: Docker & Google Cloud Run (scalable, serverless deployment)
+### 🧮 Mathematical Risk scoring
+Unlike generic reporting apps, Community Pulse calculates a dynamic **Composite Risk Score** ($R_z$) for each city zone:
+
+$$R_z = \alpha \left(\frac{C_z}{\max(C)}\right) + \beta \left(B_z\right)$$
+
+Where:
+- $C_z$: Total complaints received in Zone $z$.
+- $\max(C)$: Maximum complaint volume in any single zone (normalization factor).
+- $B_z$: Unresolved backlog rate in Zone $z$ ($\frac{\text{Open Cases}}{\text{Total Cases}}$).
+- $\alpha, \beta$: Weighting coefficients (tuned to $0.5$ / $0.5$ for balanced volume-backlog risk mapping).
+
+This score dynamically guides dispatch managers to prioritize regions experiencing both high complaint volumes and low resolution rates.
 
 ---
 
-## 🌟 Key Features
-1. **Dynamic Risk Score Engine**: Aggregates complaints per zone, computes backlog rates, and outputs a normalized 0-1 risk coefficient.
-2. **Interactive Visual Dashboard**: Includes trend volatility line charts and category donut charts powered by Plotly.
-3. **GenAI Copilot**: Automatically generates an executive municipal advisory report outlining critical sectors and action recommendations.
-4. **Conversational RAG Chat**: Allows users to chat with the data, query specifics, and write automated emails to field engineers.
-5. **Robust Fallback Engine**: If no Gemini API Key is present, the app gracefully falls back to a smart mock analytics solver so it remains fully functional and visual out-of-the-box.
+## 🌟 Key Platform Features
+
+- **💡 Dynamic Risk Scores**: Automatically aggregates datasets to rank and flag critical municipal zones.
+- **📊 Plotly Visual Suite**: High-fidelity, interactive visualizations (Volatile Weekly Trends, Category Distribution, and Status Comparisons).
+- **🤖 Autonomous Executive advisor**: Instantly reads the filtered dataset metrics and leverages Google Gemini to output a 4-bullet executive operational summary.
+- **💬 Conversational RAG Copilot**: Users can type questions (e.g., *"What is the main concern in Zone E?"* or *"Draft a crew message about water leaks"*) to get immediate, data-driven answers.
+- **🔌 Zero-Key Fallback**: Includes a built-in statistical mock engine. If no Gemini API key is configured, the chatbot and advisor continue to work flawlessly using local rule-based solvers.
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## 🚀 Getting Started (Local Run)
 
-### 1. Clone the repository
+### 1. Clone & Navigate
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/tirthgandhi9905/community-pulse.git
 cd community-pulse
 ```
 
-### 2. Set up a Virtual Environment and Install Dependencies
+### 2. Double-Click Setup (Windows Easiest)
+Simply double-click the **`run_app.bat`** script. This Windows batch script will automatically:
+- Create a Python virtual environment (`venv`).
+- Activate it and install dependencies from `requirements.txt`.
+- Run the Streamlit server and open the app in your web browser.
+
+### 3. Manual Startup (All Platforms)
 ```bash
-# Create environment
+# Setup environment
 python -m venv venv
-# Activate environment (Windows)
-.\venv\Scripts\activate
-# Activate environment (macOS/Linux)
-source venv/bin/activate
+source venv/bin/activate  # Or .\venv\Scripts\activate on Windows
 
 # Install requirements
 pip install -r requirements.txt
-```
 
-### 3. Add Gemini API Key (Optional)
-Create a `.env` file in the project root:
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-*(Alternatively, you can input your key directly into the application sidebar when running).*
-
-### 4. Run the Streamlit Application
-```bash
+# Start Server
 streamlit run app.py
 ```
-Open your browser and navigate to `http://localhost:8501`.
+Go to `http://localhost:8501`.
 
 ---
 
-## 🐳 Containerization & Deployment
+## 🐳 Containerization & GCP Cloud Run Deployment
 
-### 1. Build and Run Container Locally
-To test the Docker configuration:
-```bash
-# Build the image
-docker build -t community-pulse .
-
-# Run the container
-docker run -p 8080:8080 --env GEMINI_API_KEY=your_key community-pulse
-```
-Open your browser at `http://localhost:8080`.
-
-### 2. Deploy to Google Cloud Run (Recommended)
-You can deploy directly using the Google Cloud CLI in two simple commands:
+To host this app on a scalable, serverless container platform like **Google Cloud Run**:
 
 ```bash
 # 1. Build and submit container image to Google Artifact Registry
 gcloud builds submit --tag gcr.io/<YOUR_PROJECT_ID>/community-pulse
 
-# 2. Deploy to Cloud Run (fully managed serverless containers)
+# 2. Deploy to Cloud Run (automatically binds port 8080)
 gcloud run deploy community-pulse \
     --image gcr.io/<YOUR_PROJECT_ID>/community-pulse \
     --platform managed \
@@ -125,4 +123,9 @@ gcloud run deploy community-pulse \
     --set-env-vars="GEMINI_API_KEY=your_gemini_api_key_here"
 ```
 
-Once the deploy completes, the terminal will print a **Service URL** which is your publicly accessible deployment link.
+---
+
+## 🛡️ Responsible & Explainable AI Design
+1. **Explainable Rules**: The weighting factors and risk formulas are fully documented and visible, preventing "black-box" decision bias.
+2. **Citizen Privacy**: The platform processes aggregated complaint data (categories, zones, dates) and contains no Personally Identifiable Information (PII) like names or phone numbers.
+3. **Human-in-the-Loop**: The conversational assistant acts as a *decision helper* (e.g., drafting template emails). It never automatically dispatches crews or sends public emails without supervisor approval.
