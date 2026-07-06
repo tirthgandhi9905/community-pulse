@@ -1,0 +1,601 @@
+date,zone,category,status
+2026-04-18,Zone C,Illegal Parking,Open
+2026-04-16,Zone C,Garbage Overflow,Resolved
+2026-04-27,Zone A,Pothole,Resolved
+2026-05-26,Zone C,Illegal Parking,Resolved
+2026-05-05,Zone C,Streetlight Outage,Resolved
+2026-05-11,Zone A,Pothole,Open
+2026-05-19,Zone C,Graffiti,Resolved
+2026-06-07,Zone A,Garbage Overflow,Open
+2026-04-30,Zone B,Water Leak,Resolved
+2026-05-08,Zone E,Garbage Overflow,Resolved
+2026-06-22,Zone A,Water Leak,Resolved
+2026-05-08,Zone A,Garbage Overflow,Resolved
+2026-07-01,Zone C,Graffiti,Open
+2026-06-25,Zone A,Streetlight Outage,Resolved
+2026-06-03,Zone E,Garbage Overflow,Resolved
+2026-04-05,Zone C,Noise Complaint,Open
+2026-06-25,Zone A,Garbage Overflow,Resolved
+2026-06-26,Zone C,Pothole,Resolved
+2026-04-14,Zone D,Garbage Overflow,Resolved
+2026-06-02,Zone C,Garbage Overflow,Open
+2026-06-18,Zone C,Garbage Overflow,Open
+2026-06-04,Zone A,Pothole,Open
+2026-06-10,Zone A,Garbage Overflow,Resolved
+2026-06-13,Zone B,Tree Hazard,Resolved
+2026-06-17,Zone E,Pothole,Resolved
+2026-07-04,Zone C,Pothole,Resolved
+2026-04-27,Zone C,Pothole,Resolved
+2026-06-12,Zone C,Graffiti,Open
+2026-05-16,Zone B,Pothole,Resolved
+2026-06-18,Zone B,Water Leak,Resolved
+2026-06-21,Zone A,Water Leak,Resolved
+2026-06-10,Zone D,Illegal Parking,Resolved
+2026-06-26,Zone A,Illegal Parking,Open
+2026-05-06,Zone A,Pothole,Resolved
+2026-05-15,Zone B,Pothole,Resolved
+2026-04-22,Zone C,Water Leak,Open
+2026-06-29,Zone B,Garbage Overflow,Open
+2026-05-20,Zone B,Illegal Parking,Resolved
+2026-05-03,Zone E,Garbage Overflow,Open
+2026-06-17,Zone C,Graffiti,Open
+2026-05-21,Zone A,Noise Complaint,Open
+2026-06-30,Zone C,Garbage Overflow,Resolved
+2026-06-20,Zone D,Garbage Overflow,Open
+2026-06-23,Zone A,Water Leak,Resolved
+2026-06-24,Zone C,Pothole,Open
+2026-04-28,Zone E,Streetlight Outage,Resolved
+2026-05-10,Zone E,Streetlight Outage,Open
+2026-06-12,Zone B,Pothole,Resolved
+2026-04-05,Zone C,Streetlight Outage,Resolved
+2026-05-29,Zone A,Illegal Parking,Resolved
+2026-06-30,Zone C,Pothole,Open
+2026-04-13,Zone A,Water Leak,Open
+2026-04-25,Zone C,Graffiti,Open
+2026-06-04,Zone C,Garbage Overflow,Resolved
+2026-05-07,Zone A,Streetlight Outage,Open
+2026-06-12,Zone D,Garbage Overflow,Open
+2026-06-26,Zone A,Garbage Overflow,Open
+2026-06-27,Zone C,Illegal Parking,Open
+2026-04-09,Zone C,Pothole,Open
+2026-06-08,Zone A,Illegal Parking,Resolved
+2026-05-03,Zone B,Garbage Overflow,Resolved
+2026-06-17,Zone D,Noise Complaint,Resolved
+2026-06-14,Zone C,Pothole,Open
+2026-04-10,Zone B,Graffiti,Open
+2026-04-17,Zone B,Water Leak,Resolved
+2026-05-19,Zone A,Garbage Overflow,Resolved
+2026-05-05,Zone B,Streetlight Outage,Resolved
+2026-04-15,Zone C,Streetlight Outage,Resolved
+2026-05-08,Zone A,Water Leak,Open
+2026-04-15,Zone D,Illegal Parking,Open
+2026-06-15,Zone C,Pothole,Open
+2026-05-01,Zone A,Illegal Parking,Open
+2026-05-19,Zone D,Garbage Overflow,Resolved
+2026-06-10,Zone B,Garbage Overflow,Open
+2026-06-23,Zone B,Pothole,Resolved
+2026-05-08,Zone C,Garbage Overflow,Open
+2026-05-22,Zone A,Tree Hazard,Resolved
+2026-05-29,Zone A,Streetlight Outage,Resolved
+2026-06-09,Zone E,Garbage Overflow,Resolved
+2026-04-24,Zone C,Streetlight Outage,Open
+2026-04-11,Zone D,Pothole,Resolved
+2026-04-12,Zone C,Water Leak,Resolved
+2026-05-20,Zone E,Pothole,Open
+2026-06-14,Zone E,Streetlight Outage,Resolved
+2026-06-09,Zone C,Illegal Parking,Open
+2026-04-29,Zone A,Streetlight Outage,Open
+2026-06-10,Zone E,Noise Complaint,Open
+2026-04-02,Zone B,Illegal Parking,Resolved
+2026-04-20,Zone A,Illegal Parking,Open
+2026-06-05,Zone E,Pothole,Resolved
+2026-04-19,Zone D,Garbage Overflow,Open
+2026-06-05,Zone E,Water Leak,Open
+2026-04-27,Zone A,Tree Hazard,Open
+2026-05-11,Zone D,Water Leak,Resolved
+2026-06-10,Zone E,Noise Complaint,Resolved
+2026-04-23,Zone B,Garbage Overflow,Open
+2026-06-25,Zone A,Illegal Parking,Resolved
+2026-05-28,Zone D,Garbage Overflow,Resolved
+2026-06-08,Zone C,Garbage Overflow,Open
+2026-05-04,Zone C,Illegal Parking,Resolved
+2026-06-13,Zone A,Noise Complaint,Resolved
+2026-06-15,Zone A,Streetlight Outage,Resolved
+2026-05-21,Zone C,Pothole,Open
+2026-06-02,Zone A,Garbage Overflow,Open
+2026-06-23,Zone E,Tree Hazard,Resolved
+2026-04-29,Zone A,Garbage Overflow,Open
+2026-04-29,Zone C,Garbage Overflow,Resolved
+2026-07-03,Zone E,Streetlight Outage,Resolved
+2026-04-07,Zone E,Illegal Parking,Resolved
+2026-05-18,Zone A,Illegal Parking,Resolved
+2026-05-10,Zone B,Streetlight Outage,Resolved
+2026-04-22,Zone C,Noise Complaint,Resolved
+2026-04-16,Zone E,Graffiti,Resolved
+2026-04-23,Zone A,Garbage Overflow,Resolved
+2026-07-02,Zone D,Pothole,Resolved
+2026-07-01,Zone C,Garbage Overflow,Resolved
+2026-06-09,Zone C,Pothole,Resolved
+2026-05-03,Zone C,Streetlight Outage,Resolved
+2026-04-18,Zone E,Water Leak,Resolved
+2026-06-27,Zone C,Garbage Overflow,Resolved
+2026-05-19,Zone E,Tree Hazard,Resolved
+2026-05-12,Zone C,Water Leak,Open
+2026-04-28,Zone A,Water Leak,Open
+2026-04-16,Zone C,Streetlight Outage,Open
+2026-06-11,Zone A,Streetlight Outage,Open
+2026-04-03,Zone A,Graffiti,Open
+2026-05-04,Zone A,Streetlight Outage,Open
+2026-05-05,Zone B,Illegal Parking,Resolved
+2026-05-28,Zone D,Illegal Parking,Resolved
+2026-06-09,Zone B,Garbage Overflow,Open
+2026-04-27,Zone C,Garbage Overflow,Open
+2026-04-14,Zone E,Pothole,Resolved
+2026-04-02,Zone C,Graffiti,Resolved
+2026-06-23,Zone A,Garbage Overflow,Resolved
+2026-05-10,Zone C,Water Leak,Resolved
+2026-05-12,Zone A,Garbage Overflow,Open
+2026-05-10,Zone C,Garbage Overflow,Resolved
+2026-06-13,Zone C,Water Leak,Open
+2026-04-27,Zone C,Graffiti,Resolved
+2026-07-02,Zone E,Illegal Parking,Resolved
+2026-05-30,Zone C,Garbage Overflow,Resolved
+2026-07-01,Zone E,Streetlight Outage,Open
+2026-06-19,Zone C,Streetlight Outage,Open
+2026-06-26,Zone B,Garbage Overflow,Resolved
+2026-06-19,Zone C,Noise Complaint,Resolved
+2026-07-05,Zone A,Graffiti,Open
+2026-06-23,Zone B,Pothole,Resolved
+2026-04-20,Zone C,Tree Hazard,Resolved
+2026-04-23,Zone D,Illegal Parking,Resolved
+2026-05-15,Zone E,Illegal Parking,Resolved
+2026-06-27,Zone C,Pothole,Resolved
+2026-06-02,Zone A,Garbage Overflow,Open
+2026-04-13,Zone C,Garbage Overflow,Open
+2026-06-24,Zone C,Pothole,Resolved
+2026-04-21,Zone C,Garbage Overflow,Resolved
+2026-06-17,Zone B,Garbage Overflow,Open
+2026-05-13,Zone B,Pothole,Resolved
+2026-06-06,Zone C,Garbage Overflow,Resolved
+2026-04-07,Zone A,Water Leak,Resolved
+2026-06-11,Zone B,Water Leak,Open
+2026-06-11,Zone B,Garbage Overflow,Resolved
+2026-06-18,Zone B,Streetlight Outage,Resolved
+2026-06-30,Zone A,Water Leak,Resolved
+2026-06-19,Zone B,Tree Hazard,Resolved
+2026-05-02,Zone D,Streetlight Outage,Resolved
+2026-04-22,Zone E,Water Leak,Resolved
+2026-07-03,Zone A,Graffiti,Open
+2026-04-21,Zone A,Pothole,Resolved
+2026-05-17,Zone B,Garbage Overflow,Open
+2026-04-27,Zone C,Streetlight Outage,Open
+2026-05-21,Zone B,Tree Hazard,Resolved
+2026-04-06,Zone A,Water Leak,Resolved
+2026-04-28,Zone C,Garbage Overflow,Open
+2026-07-02,Zone E,Water Leak,Resolved
+2026-05-06,Zone A,Noise Complaint,Open
+2026-05-22,Zone A,Garbage Overflow,Resolved
+2026-04-30,Zone A,Streetlight Outage,Open
+2026-05-20,Zone A,Noise Complaint,Open
+2026-06-15,Zone A,Streetlight Outage,Open
+2026-04-02,Zone D,Illegal Parking,Resolved
+2026-05-20,Zone E,Streetlight Outage,Open
+2026-04-21,Zone E,Illegal Parking,Open
+2026-04-04,Zone A,Pothole,Resolved
+2026-04-08,Zone C,Streetlight Outage,Open
+2026-06-23,Zone E,Tree Hazard,Open
+2026-04-08,Zone C,Pothole,Resolved
+2026-04-16,Zone C,Streetlight Outage,Open
+2026-04-17,Zone C,Water Leak,Resolved
+2026-06-24,Zone C,Garbage Overflow,Open
+2026-05-04,Zone C,Streetlight Outage,Open
+2026-06-15,Zone A,Garbage Overflow,Resolved
+2026-06-21,Zone C,Pothole,Open
+2026-05-23,Zone C,Noise Complaint,Open
+2026-06-24,Zone A,Streetlight Outage,Resolved
+2026-04-10,Zone B,Graffiti,Open
+2026-04-27,Zone E,Illegal Parking,Open
+2026-04-12,Zone E,Garbage Overflow,Resolved
+2026-04-13,Zone E,Pothole,Resolved
+2026-05-27,Zone C,Tree Hazard,Resolved
+2026-05-28,Zone A,Garbage Overflow,Open
+2026-05-12,Zone A,Pothole,Open
+2026-07-03,Zone B,Noise Complaint,Resolved
+2026-05-19,Zone D,Illegal Parking,Resolved
+2026-05-25,Zone E,Garbage Overflow,Open
+2026-05-14,Zone C,Garbage Overflow,Resolved
+2026-06-01,Zone A,Water Leak,Open
+2026-06-11,Zone C,Illegal Parking,Resolved
+2026-06-08,Zone A,Graffiti,Resolved
+2026-07-05,Zone A,Garbage Overflow,Open
+2026-04-13,Zone B,Pothole,Open
+2026-05-09,Zone D,Water Leak,Resolved
+2026-05-09,Zone B,Streetlight Outage,Resolved
+2026-06-06,Zone C,Garbage Overflow,Open
+2026-07-03,Zone B,Garbage Overflow,Open
+2026-05-06,Zone C,Tree Hazard,Resolved
+2026-05-19,Zone D,Tree Hazard,Resolved
+2026-04-08,Zone A,Garbage Overflow,Resolved
+2026-05-03,Zone D,Noise Complaint,Resolved
+2026-05-17,Zone E,Illegal Parking,Resolved
+2026-05-10,Zone C,Graffiti,Open
+2026-04-22,Zone A,Streetlight Outage,Open
+2026-04-18,Zone E,Pothole,Resolved
+2026-07-03,Zone C,Illegal Parking,Resolved
+2026-06-27,Zone B,Pothole,Resolved
+2026-06-20,Zone C,Water Leak,Resolved
+2026-04-28,Zone C,Pothole,Resolved
+2026-04-03,Zone C,Tree Hazard,Open
+2026-05-07,Zone A,Streetlight Outage,Open
+2026-05-01,Zone C,Water Leak,Open
+2026-04-25,Zone D,Noise Complaint,Resolved
+2026-05-03,Zone B,Pothole,Resolved
+2026-05-19,Zone C,Garbage Overflow,Open
+2026-06-05,Zone D,Water Leak,Open
+2026-05-29,Zone A,Graffiti,Resolved
+2026-06-22,Zone A,Pothole,Open
+2026-07-05,Zone B,Illegal Parking,Resolved
+2026-06-10,Zone B,Garbage Overflow,Resolved
+2026-06-06,Zone B,Water Leak,Resolved
+2026-05-09,Zone A,Garbage Overflow,Open
+2026-04-21,Zone B,Pothole,Resolved
+2026-06-24,Zone C,Garbage Overflow,Open
+2026-06-24,Zone E,Water Leak,Resolved
+2026-04-12,Zone E,Garbage Overflow,Resolved
+2026-05-18,Zone C,Illegal Parking,Resolved
+2026-05-20,Zone C,Pothole,Open
+2026-05-24,Zone A,Graffiti,Resolved
+2026-05-18,Zone E,Water Leak,Resolved
+2026-05-23,Zone B,Garbage Overflow,Resolved
+2026-06-28,Zone B,Garbage Overflow,Resolved
+2026-04-28,Zone C,Garbage Overflow,Resolved
+2026-07-01,Zone C,Pothole,Open
+2026-04-20,Zone A,Pothole,Open
+2026-06-01,Zone D,Pothole,Resolved
+2026-04-24,Zone E,Pothole,Resolved
+2026-04-07,Zone C,Garbage Overflow,Open
+2026-06-23,Zone E,Pothole,Resolved
+2026-05-24,Zone E,Noise Complaint,Resolved
+2026-06-27,Zone B,Garbage Overflow,Resolved
+2026-04-07,Zone D,Water Leak,Open
+2026-05-20,Zone A,Garbage Overflow,Resolved
+2026-06-03,Zone E,Pothole,Resolved
+2026-04-14,Zone A,Water Leak,Resolved
+2026-04-22,Zone C,Garbage Overflow,Resolved
+2026-06-08,Zone B,Garbage Overflow,Resolved
+2026-06-09,Zone E,Illegal Parking,Resolved
+2026-06-02,Zone A,Illegal Parking,Resolved
+2026-05-15,Zone E,Graffiti,Resolved
+2026-06-09,Zone C,Streetlight Outage,Resolved
+2026-04-13,Zone A,Streetlight Outage,Resolved
+2026-05-23,Zone A,Streetlight Outage,Open
+2026-06-20,Zone C,Graffiti,Open
+2026-06-17,Zone C,Graffiti,Open
+2026-06-01,Zone C,Streetlight Outage,Open
+2026-05-18,Zone C,Streetlight Outage,Open
+2026-04-24,Zone C,Water Leak,Open
+2026-04-20,Zone A,Garbage Overflow,Resolved
+2026-06-22,Zone D,Graffiti,Open
+2026-06-19,Zone C,Garbage Overflow,Open
+2026-04-18,Zone C,Streetlight Outage,Resolved
+2026-06-29,Zone A,Pothole,Open
+2026-06-12,Zone A,Water Leak,Resolved
+2026-05-25,Zone B,Illegal Parking,Resolved
+2026-06-18,Zone A,Noise Complaint,Open
+2026-06-20,Zone E,Garbage Overflow,Resolved
+2026-06-06,Zone B,Pothole,Resolved
+2026-04-15,Zone B,Illegal Parking,Resolved
+2026-04-06,Zone B,Pothole,Resolved
+2026-05-09,Zone B,Streetlight Outage,Open
+2026-04-04,Zone A,Tree Hazard,Open
+2026-07-02,Zone C,Streetlight Outage,Resolved
+2026-05-06,Zone A,Tree Hazard,Resolved
+2026-04-15,Zone B,Illegal Parking,Resolved
+2026-04-17,Zone C,Illegal Parking,Open
+2026-06-26,Zone C,Noise Complaint,Open
+2026-05-24,Zone C,Garbage Overflow,Resolved
+2026-06-20,Zone B,Pothole,Resolved
+2026-04-15,Zone A,Streetlight Outage,Open
+2026-06-09,Zone A,Garbage Overflow,Resolved
+2026-05-04,Zone C,Garbage Overflow,Open
+2026-05-18,Zone A,Graffiti,Open
+2026-06-11,Zone E,Noise Complaint,Resolved
+2026-04-04,Zone C,Garbage Overflow,Open
+2026-04-10,Zone E,Pothole,Resolved
+2026-04-28,Zone C,Illegal Parking,Resolved
+2026-05-17,Zone E,Pothole,Resolved
+2026-05-19,Zone D,Garbage Overflow,Resolved
+2026-04-19,Zone B,Water Leak,Resolved
+2026-06-17,Zone E,Garbage Overflow,Open
+2026-06-22,Zone A,Noise Complaint,Resolved
+2026-04-13,Zone C,Illegal Parking,Resolved
+2026-05-25,Zone B,Garbage Overflow,Resolved
+2026-05-30,Zone A,Garbage Overflow,Open
+2026-06-30,Zone C,Illegal Parking,Resolved
+2026-06-15,Zone A,Garbage Overflow,Open
+2026-05-05,Zone D,Water Leak,Resolved
+2026-05-16,Zone D,Illegal Parking,Open
+2026-06-19,Zone A,Garbage Overflow,Open
+2026-04-21,Zone A,Pothole,Resolved
+2026-05-25,Zone E,Garbage Overflow,Resolved
+2026-04-08,Zone C,Garbage Overflow,Open
+2026-05-14,Zone C,Noise Complaint,Resolved
+2026-06-06,Zone A,Garbage Overflow,Open
+2026-06-05,Zone A,Water Leak,Open
+2026-05-14,Zone D,Pothole,Resolved
+2026-06-01,Zone E,Garbage Overflow,Resolved
+2026-04-23,Zone B,Streetlight Outage,Open
+2026-05-13,Zone C,Illegal Parking,Open
+2026-05-31,Zone B,Water Leak,Resolved
+2026-04-25,Zone C,Garbage Overflow,Open
+2026-06-02,Zone E,Illegal Parking,Open
+2026-05-19,Zone B,Illegal Parking,Resolved
+2026-04-24,Zone C,Garbage Overflow,Open
+2026-05-07,Zone E,Pothole,Resolved
+2026-04-14,Zone E,Pothole,Resolved
+2026-06-21,Zone C,Illegal Parking,Open
+2026-06-29,Zone B,Pothole,Resolved
+2026-05-25,Zone E,Water Leak,Resolved
+2026-05-01,Zone A,Garbage Overflow,Resolved
+2026-04-21,Zone A,Water Leak,Open
+2026-05-25,Zone A,Pothole,Open
+2026-04-25,Zone C,Noise Complaint,Resolved
+2026-06-08,Zone A,Garbage Overflow,Open
+2026-06-12,Zone C,Garbage Overflow,Resolved
+2026-06-22,Zone D,Pothole,Resolved
+2026-04-02,Zone A,Illegal Parking,Open
+2026-07-02,Zone B,Water Leak,Resolved
+2026-06-30,Zone D,Illegal Parking,Resolved
+2026-06-04,Zone D,Garbage Overflow,Resolved
+2026-06-29,Zone B,Streetlight Outage,Resolved
+2026-05-17,Zone E,Streetlight Outage,Resolved
+2026-04-23,Zone D,Water Leak,Resolved
+2026-05-14,Zone E,Streetlight Outage,Resolved
+2026-05-20,Zone B,Garbage Overflow,Open
+2026-04-17,Zone E,Streetlight Outage,Open
+2026-06-14,Zone C,Streetlight Outage,Open
+2026-05-01,Zone C,Garbage Overflow,Open
+2026-04-26,Zone A,Tree Hazard,Open
+2026-06-25,Zone A,Noise Complaint,Open
+2026-06-27,Zone A,Water Leak,Resolved
+2026-06-09,Zone A,Streetlight Outage,Open
+2026-05-07,Zone A,Noise Complaint,Open
+2026-07-05,Zone E,Streetlight Outage,Resolved
+2026-05-15,Zone C,Streetlight Outage,Open
+2026-05-09,Zone A,Garbage Overflow,Open
+2026-06-19,Zone C,Water Leak,Resolved
+2026-05-03,Zone C,Pothole,Resolved
+2026-04-21,Zone D,Graffiti,Resolved
+2026-04-14,Zone A,Garbage Overflow,Resolved
+2026-07-05,Zone A,Garbage Overflow,Open
+2026-06-30,Zone A,Graffiti,Resolved
+2026-06-06,Zone A,Noise Complaint,Open
+2026-04-01,Zone C,Illegal Parking,Resolved
+2026-06-12,Zone B,Garbage Overflow,Resolved
+2026-05-05,Zone A,Pothole,Resolved
+2026-06-10,Zone C,Illegal Parking,Resolved
+2026-06-24,Zone C,Streetlight Outage,Open
+2026-04-17,Zone A,Pothole,Resolved
+2026-06-02,Zone A,Illegal Parking,Open
+2026-05-14,Zone E,Pothole,Resolved
+2026-04-06,Zone E,Illegal Parking,Open
+2026-04-23,Zone C,Streetlight Outage,Open
+2026-06-06,Zone B,Streetlight Outage,Resolved
+2026-06-15,Zone E,Illegal Parking,Open
+2026-04-07,Zone C,Illegal Parking,Open
+2026-04-19,Zone E,Graffiti,Resolved
+2026-06-14,Zone C,Graffiti,Resolved
+2026-05-21,Zone A,Garbage Overflow,Open
+2026-06-13,Zone C,Garbage Overflow,Resolved
+2026-05-31,Zone E,Pothole,Resolved
+2026-06-01,Zone A,Streetlight Outage,Resolved
+2026-04-20,Zone C,Garbage Overflow,Resolved
+2026-04-09,Zone E,Illegal Parking,Resolved
+2026-05-24,Zone B,Garbage Overflow,Open
+2026-06-14,Zone A,Water Leak,Open
+2026-05-13,Zone B,Garbage Overflow,Resolved
+2026-06-21,Zone B,Pothole,Resolved
+2026-04-11,Zone E,Garbage Overflow,Resolved
+2026-06-09,Zone A,Pothole,Open
+2026-04-28,Zone A,Water Leak,Resolved
+2026-05-22,Zone B,Garbage Overflow,Resolved
+2026-05-14,Zone E,Water Leak,Open
+2026-04-09,Zone D,Streetlight Outage,Resolved
+2026-05-21,Zone C,Water Leak,Resolved
+2026-04-10,Zone C,Tree Hazard,Resolved
+2026-05-23,Zone A,Streetlight Outage,Resolved
+2026-05-04,Zone A,Pothole,Resolved
+2026-04-07,Zone C,Streetlight Outage,Resolved
+2026-04-27,Zone D,Pothole,Resolved
+2026-05-08,Zone E,Pothole,Resolved
+2026-05-17,Zone D,Pothole,Resolved
+2026-05-24,Zone C,Tree Hazard,Open
+2026-06-15,Zone C,Water Leak,Open
+2026-04-24,Zone E,Streetlight Outage,Open
+2026-04-17,Zone E,Garbage Overflow,Resolved
+2026-05-29,Zone A,Pothole,Resolved
+2026-05-13,Zone E,Water Leak,Resolved
+2026-06-21,Zone A,Graffiti,Open
+2026-05-03,Zone E,Pothole,Open
+2026-04-11,Zone C,Pothole,Resolved
+2026-04-26,Zone A,Streetlight Outage,Open
+2026-05-18,Zone B,Graffiti,Open
+2026-06-16,Zone A,Water Leak,Open
+2026-06-14,Zone C,Garbage Overflow,Open
+2026-04-03,Zone E,Water Leak,Resolved
+2026-06-19,Zone E,Garbage Overflow,Resolved
+2026-05-14,Zone B,Water Leak,Open
+2026-06-05,Zone D,Graffiti,Resolved
+2026-06-12,Zone C,Graffiti,Resolved
+2026-06-16,Zone C,Water Leak,Resolved
+2026-05-28,Zone C,Pothole,Open
+2026-06-07,Zone B,Illegal Parking,Resolved
+2026-06-09,Zone B,Streetlight Outage,Resolved
+2026-04-06,Zone D,Garbage Overflow,Resolved
+2026-06-05,Zone C,Noise Complaint,Resolved
+2026-06-29,Zone E,Pothole,Resolved
+2026-04-07,Zone C,Garbage Overflow,Resolved
+2026-04-02,Zone B,Garbage Overflow,Open
+2026-05-19,Zone A,Garbage Overflow,Resolved
+2026-04-07,Zone A,Pothole,Open
+2026-06-22,Zone A,Illegal Parking,Open
+2026-05-23,Zone C,Streetlight Outage,Resolved
+2026-06-29,Zone C,Illegal Parking,Resolved
+2026-07-05,Zone C,Garbage Overflow,Open
+2026-05-24,Zone E,Graffiti,Resolved
+2026-04-10,Zone E,Garbage Overflow,Open
+2026-04-06,Zone C,Water Leak,Open
+2026-05-21,Zone B,Water Leak,Resolved
+2026-05-09,Zone C,Tree Hazard,Open
+2026-06-30,Zone C,Garbage Overflow,Open
+2026-04-19,Zone A,Garbage Overflow,Resolved
+2026-06-05,Zone C,Graffiti,Open
+2026-06-22,Zone B,Garbage Overflow,Resolved
+2026-04-02,Zone E,Illegal Parking,Resolved
+2026-04-15,Zone C,Illegal Parking,Resolved
+2026-07-05,Zone E,Tree Hazard,Resolved
+2026-04-30,Zone A,Water Leak,Open
+2026-04-21,Zone A,Tree Hazard,Resolved
+2026-04-09,Zone A,Water Leak,Open
+2026-07-01,Zone E,Pothole,Open
+2026-06-08,Zone B,Illegal Parking,Resolved
+2026-06-11,Zone A,Streetlight Outage,Open
+2026-06-10,Zone C,Tree Hazard,Open
+2026-05-21,Zone E,Streetlight Outage,Resolved
+2026-05-28,Zone A,Garbage Overflow,Open
+2026-06-12,Zone A,Water Leak,Resolved
+2026-04-28,Zone A,Streetlight Outage,Resolved
+2026-04-08,Zone D,Tree Hazard,Open
+2026-05-27,Zone A,Pothole,Open
+2026-05-15,Zone A,Pothole,Open
+2026-04-30,Zone C,Pothole,Open
+2026-07-05,Zone C,Pothole,Resolved
+2026-07-05,Zone A,Streetlight Outage,Open
+2026-05-25,Zone E,Noise Complaint,Resolved
+2026-04-25,Zone B,Garbage Overflow,Resolved
+2026-06-24,Zone E,Garbage Overflow,Resolved
+2026-04-12,Zone C,Streetlight Outage,Resolved
+2026-05-14,Zone E,Water Leak,Open
+2026-04-10,Zone D,Garbage Overflow,Resolved
+2026-05-09,Zone E,Tree Hazard,Resolved
+2026-05-18,Zone B,Garbage Overflow,Resolved
+2026-05-31,Zone C,Garbage Overflow,Open
+2026-05-09,Zone C,Illegal Parking,Resolved
+2026-04-20,Zone A,Water Leak,Open
+2026-04-21,Zone A,Water Leak,Open
+2026-06-22,Zone B,Streetlight Outage,Resolved
+2026-04-10,Zone C,Garbage Overflow,Resolved
+2026-04-14,Zone E,Water Leak,Open
+2026-04-24,Zone C,Pothole,Open
+2026-04-25,Zone C,Noise Complaint,Open
+2026-05-16,Zone E,Illegal Parking,Resolved
+2026-06-25,Zone B,Water Leak,Open
+2026-05-19,Zone A,Streetlight Outage,Resolved
+2026-04-27,Zone A,Illegal Parking,Open
+2026-06-12,Zone B,Garbage Overflow,Open
+2026-05-08,Zone C,Pothole,Open
+2026-04-18,Zone A,Garbage Overflow,Open
+2026-04-21,Zone A,Streetlight Outage,Open
+2026-06-09,Zone C,Illegal Parking,Resolved
+2026-05-27,Zone C,Garbage Overflow,Open
+2026-05-16,Zone A,Illegal Parking,Open
+2026-04-30,Zone D,Pothole,Open
+2026-04-21,Zone C,Pothole,Resolved
+2026-04-11,Zone C,Water Leak,Resolved
+2026-04-12,Zone C,Water Leak,Resolved
+2026-04-22,Zone C,Illegal Parking,Resolved
+2026-04-03,Zone A,Tree Hazard,Resolved
+2026-04-07,Zone E,Garbage Overflow,Resolved
+2026-06-02,Zone A,Garbage Overflow,Resolved
+2026-06-12,Zone C,Streetlight Outage,Open
+2026-06-13,Zone A,Garbage Overflow,Resolved
+2026-05-04,Zone A,Water Leak,Resolved
+2026-04-03,Zone E,Tree Hazard,Open
+2026-05-04,Zone E,Streetlight Outage,Resolved
+2026-06-02,Zone B,Pothole,Open
+2026-05-08,Zone A,Garbage Overflow,Resolved
+2026-04-28,Zone B,Illegal Parking,Resolved
+2026-06-03,Zone C,Water Leak,Resolved
+2026-05-12,Zone A,Pothole,Open
+2026-07-05,Zone C,Illegal Parking,Open
+2026-05-28,Zone A,Garbage Overflow,Resolved
+2026-04-05,Zone C,Streetlight Outage,Resolved
+2026-04-05,Zone C,Garbage Overflow,Open
+2026-05-12,Zone E,Illegal Parking,Resolved
+2026-06-03,Zone B,Garbage Overflow,Resolved
+2026-07-04,Zone C,Water Leak,Open
+2026-07-02,Zone B,Garbage Overflow,Open
+2026-06-22,Zone C,Streetlight Outage,Open
+2026-05-16,Zone A,Pothole,Resolved
+2026-04-06,Zone E,Water Leak,Resolved
+2026-04-23,Zone C,Garbage Overflow,Resolved
+2026-06-18,Zone A,Water Leak,Open
+2026-05-22,Zone E,Pothole,Resolved
+2026-04-22,Zone B,Pothole,Resolved
+2026-06-19,Zone C,Streetlight Outage,Resolved
+2026-05-30,Zone C,Garbage Overflow,Open
+2026-06-18,Zone C,Streetlight Outage,Resolved
+2026-04-27,Zone B,Pothole,Open
+2026-05-14,Zone A,Garbage Overflow,Resolved
+2026-07-04,Zone A,Tree Hazard,Open
+2026-06-08,Zone C,Illegal Parking,Open
+2026-07-02,Zone A,Garbage Overflow,Open
+2026-05-21,Zone A,Garbage Overflow,Resolved
+2026-04-05,Zone C,Graffiti,Resolved
+2026-06-02,Zone B,Tree Hazard,Resolved
+2026-04-23,Zone E,Streetlight Outage,Resolved
+2026-04-04,Zone C,Illegal Parking,Open
+2026-06-10,Zone A,Illegal Parking,Open
+2026-07-05,Zone A,Pothole,Open
+2026-05-23,Zone C,Garbage Overflow,Open
+2026-06-09,Zone E,Tree Hazard,Resolved
+2026-06-01,Zone C,Garbage Overflow,Open
+2026-04-18,Zone C,Streetlight Outage,Resolved
+2026-04-28,Zone E,Water Leak,Open
+2026-06-29,Zone A,Pothole,Open
+2026-05-18,Zone C,Graffiti,Open
+2026-05-20,Zone C,Garbage Overflow,Resolved
+2026-05-09,Zone C,Garbage Overflow,Resolved
+2026-05-08,Zone A,Garbage Overflow,Open
+2026-05-29,Zone A,Pothole,Open
+2026-06-03,Zone E,Garbage Overflow,Resolved
+2026-07-02,Zone C,Garbage Overflow,Resolved
+2026-05-12,Zone C,Garbage Overflow,Open
+2026-04-28,Zone A,Garbage Overflow,Resolved
+2026-05-02,Zone A,Garbage Overflow,Resolved
+2026-04-08,Zone B,Graffiti,Resolved
+2026-05-17,Zone C,Tree Hazard,Resolved
+2026-04-27,Zone D,Illegal Parking,Resolved
+2026-04-29,Zone B,Graffiti,Resolved
+2026-04-23,Zone A,Water Leak,Resolved
+2026-05-15,Zone C,Illegal Parking,Resolved
+2026-04-29,Zone A,Illegal Parking,Open
+2026-04-27,Zone C,Streetlight Outage,Open
+2026-05-15,Zone A,Garbage Overflow,Open
+2026-06-08,Zone D,Illegal Parking,Open
+2026-05-14,Zone A,Garbage Overflow,Open
+2026-06-21,Zone E,Garbage Overflow,Resolved
+2026-04-27,Zone A,Pothole,Open
+2026-04-19,Zone A,Water Leak,Open
+2026-04-18,Zone E,Water Leak,Resolved
+2026-06-27,Zone B,Pothole,Resolved
+2026-04-23,Zone A,Noise Complaint,Resolved
+2026-04-05,Zone E,Pothole,Resolved
+2026-06-12,Zone E,Streetlight Outage,Resolved
+2026-05-06,Zone E,Garbage Overflow,Open
+2026-05-31,Zone A,Garbage Overflow,Open
+2026-05-01,Zone A,Tree Hazard,Open
+2026-06-29,Zone B,Streetlight Outage,Resolved
+2026-04-10,Zone D,Illegal Parking,Resolved
+2026-04-15,Zone E,Garbage Overflow,Resolved
+2026-06-13,Zone C,Water Leak,Resolved
+2026-04-19,Zone C,Water Leak,Resolved
+2026-05-20,Zone B,Garbage Overflow,Resolved
+2026-04-27,Zone A,Pothole,Open
+2026-05-01,Zone C,Garbage Overflow,Resolved
+2026-06-12,Zone A,Pothole,Resolved
+2026-06-07,Zone A,Garbage Overflow,Resolved
+2026-05-24,Zone A,Streetlight Outage,Resolved
+2026-05-18,Zone E,Illegal Parking,Resolved
+2026-04-07,Zone C,Pothole,Resolved
+2026-05-17,Zone C,Garbage Overflow,Resolved
