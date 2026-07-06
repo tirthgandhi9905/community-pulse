@@ -103,6 +103,44 @@ graph TD
     UC3 -.->|includes| System
     UC5 -.->|uses Gemini AI| UC6
 ```
+ 
+#### Dashboard UI Wireframe Layout
+```mermaid
+graph TD
+    subgraph UI ["Dashboard Wireframe Layout"]
+        Header["Header: 🏙️ Community Pulse — Civic Decision Intelligence Platform"]
+        
+        subgraph Sidebar ["Sidebar Panel"]
+            API["🔑 Gemini API Key Settings"]
+            Filters["📊 Select Zones & Categories"]
+            Presets["⚡ Quick Analytics Presets"]
+        end
+        
+        subgraph Main ["Main Panel Dashboard"]
+            subgraph Metrics ["Metric Cards Grid"]
+                M1["Total Ingested Cases"]
+                M2["Unresolved Backlog %"]
+                M3["Top Concern Type"]
+                M4["Critical Zone Risk Score"]
+            end
+            
+            subgraph Body ["Analytics Grid (Two Columns)"]
+                subgraph Col1 ["Left Column"]
+                    Col1_1["📈 Complaint Volatility & Trends (Plotly)"]
+                    Col1_2["🍕 Distribution by Category (Plotly)"]
+                end
+                subgraph Col2 ["Right Column"]
+                    Col2_1["🚨 Municipal Risk League Table"]
+                    Col2_2["📊 Zone Backlog Breakdown (Plotly)"]
+                end
+            end
+            
+            Advisor["🤖 GenAI Copilot: Operations Advisory Report (Gemini AI / Fallback)"]
+            
+            Chat["💬 Ask Community Pulse AI (RAG Chat Panel)"]
+        end
+    end
+```
 
 ### 🧮 Mathematical Risk scoring
 Unlike generic reporting apps, Community Pulse calculates a dynamic **Composite Risk Score** ($R_z$) for each city zone:
